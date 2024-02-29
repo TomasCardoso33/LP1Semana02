@@ -23,7 +23,8 @@ namespace BreakContinue
                 {
                     continue;
                 }
-                 if (turn == 10)
+                // Skips printing if current turn is equal to 10
+                if (turn == 10)
                 {
                     continue;
                 }
