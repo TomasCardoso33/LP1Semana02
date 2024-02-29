@@ -12,14 +12,16 @@ namespace Cilindro
         Console.Write("Digite o raio do cilindro: ");
         float r = MathF.Abs(float.Parse(Console.ReadLine())); 
 
-         
+        
         float v = MathF.PI * MathF.Pow(r, 2) * a;
 
         
+        float aS = 2 * MathF.PI * r * (r + a);
 
         Console.WriteLine($"Volume do cilindro: {v}");
-        
+        Console.WriteLine($"Área de superfície do cilindro: {aS}");
         }
     }
 }
+
 
