@@ -34,6 +34,10 @@ namespace ValoresEspeciais
         Console.WriteLine($"Overflow para +∞: {overflowPositiveInfinity}");
         float overflowNegativeInfinity = -maxValue * 2;
         Console.WriteLine($"Overflow para -∞: {overflowNegativeInfinity}");
+        float minValue = float.MinValue;
+        Console.WriteLine($"Mínimo valor representável para float: {minValue}");
+        float underflowToZero = minValue / 2;
+        Console.WriteLine($"Resultado de underflow para zero: {underflowToZero}");
         }
     }
 }
