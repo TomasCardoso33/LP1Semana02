@@ -24,6 +24,10 @@ namespace ValoresEspeciais
         Console.WriteLine($"-∞: {double.NegativeInfinity}");
         Console.WriteLine($"+∞: {double.PositiveInfinity}");
         Console.WriteLine($"NaN: {double.NaN}");
+        uint maxValue = uint.MaxValue;
+        Console.WriteLine($"Valor máximo de uint: {maxValue}");
+        uint overflowedValue = maxValue + 1;
+        Console.WriteLine($"Resultado de overflow: {overflowedValue}");
         }
     }
 }
