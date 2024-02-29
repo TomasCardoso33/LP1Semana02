@@ -28,6 +28,12 @@ namespace ValoresEspeciais
         Console.WriteLine($"Valor máximo de uint: {maxValue}");
         uint overflowedValue = maxValue + 1;
         Console.WriteLine($"Resultado de overflow: {overflowedValue}");
+        float maxValue = float.MaxValue;
+        Console.WriteLine($"Máximo para float: {maxValue}");
+        float overflowPositiveInfinity = maxValue * 2;
+        Console.WriteLine($"Overflow para +∞: {overflowPositiveInfinity}");
+        float overflowNegativeInfinity = -maxValue * 2;
+        Console.WriteLine($"Overflow para -∞: {overflowNegativeInfinity}");
         }
     }
 }
