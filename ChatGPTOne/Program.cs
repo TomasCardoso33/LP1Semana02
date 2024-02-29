@@ -30,7 +30,7 @@ namespace ChatGPTOne
                         response = "Obviously!";
                         break;
                     default:
-                        response = "You got me, I'm not THAT smart!";
+                        response = "Im rubbish and dont know what you are saying";
                         break;
                 }
 
